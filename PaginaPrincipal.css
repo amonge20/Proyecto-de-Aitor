@@ -1,0 +1,16 @@
+.encabezado {
+    background-color: black;
+    margin: -1.4%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    margin-left: 1%;
+    padding: 14px;
+    font-size: 25px;
+}
+
+.menu-opciones {
+    margin-right: auto;
+}
