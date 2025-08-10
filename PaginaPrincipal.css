@@ -1,4 +1,7 @@
-.encabezado {
+body {
+    overflow: hidden;
+}
+#encabezado {
     background-color: black;
     margin: -1.4%;
     height: auto;
@@ -8,9 +11,31 @@ h1 {
     color: white;
     margin-left: 1%;
     padding: 14px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .menu-opciones {
-    margin-right: auto;
+    float: right;
+    margin-right: 2%;
+}
+
+.menu-despegable-traduccion {
+    float: right;
+    margin-right: 2%;
+}
+
+.menu-opciones .button {
+    background-color: white;
+    padding: 10px 12px;
+    border: 2px black solid;
+}
+
+.menu-despegable-traduccion .button {
+    background-color: white;
+    padding: 10px 12px;
+    border: 2px black solid;
+}
+
+.carrousel-imagenes {
+    margin-top: 10%;
 }
